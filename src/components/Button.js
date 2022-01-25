@@ -22,7 +22,7 @@ const ButtonStyle = styled.div`
 `;
 
 const Button = ({ btnLink = 'test', btnText = 'Test', outline = false }) => (
-  <ButtonStyle outline={outline}>
+  <ButtonStyle outline={outline} className="button-wrapper">
     <Link className="button" to={btnLink}>
       {btnText}
     </Link>

@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import Hero from '../assets/images/hero.png';
 import Button from './Button';
-import PText from './PText';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
+import PText from './PText';
 
 const HeroStyles = styled.div`
   .hero {
