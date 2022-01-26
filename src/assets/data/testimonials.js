@@ -5,7 +5,7 @@ const testimonials = [
     title: 'System analyst',
     org: 'Befaust',
     desc:
-      'Enuel is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.',
+      'Enuel is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing. Jordi is the best',
   },
   {
     id: 2,
@@ -19,9 +19,9 @@ const testimonials = [
     id: 3,
     name: 'Cristián Ferreyra',
     title: 'Back-End Developer',
-    org: 'Autodidact',
+    org: 'Freelancer',
     desc:
-      'Really hard-working person. Deliver the work as promised. Planning to work more with this person.',
+      'Enuel is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.',
   },
 ];
 export default testimonials;

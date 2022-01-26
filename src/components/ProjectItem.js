@@ -15,7 +15,7 @@ const ProjectItemStyles = styled.div`
       height: 100%;
     }
   }
-  .projecItem__info {
+  .projectItem__info {
     margin-top: 1rem;
     background-color: var(--deep-dark);
     padding: 1rem;
