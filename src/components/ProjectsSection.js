@@ -58,7 +58,10 @@ const ProjectSectionStyle = styled.div`
 const ProjectsSection = () => (
   <ProjectSectionStyle>
     <div className="container">
-      <SectionTitle heading="Projects" subheading="some of my recent works" />
+      <SectionTitle
+        heading="Proyectos"
+        subheading="Algunos de mis recientes trabajos"
+      />
       <div className="projects__allItems">
         <Swiper
           spaceBetween={30}

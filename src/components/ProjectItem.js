@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import projectImg from '../assets/images/projectImg.png';
+import CrudApp from '../assets/images/CrudApp.png';
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {
@@ -37,7 +37,7 @@ const ProjectItemStyles = styled.div`
 `;
 
 const ProjectItem = ({
-  img = projectImg,
+  img = CrudApp,
   title = 'Project Name',
   desc = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
 }) => (

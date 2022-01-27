@@ -26,9 +26,9 @@ const ContactBanner = () => (
   <ContactBannerStyles>
     <div className="container">
       <div className="contactBanner__wrapper">
-        <PText>Have a project in mind</PText>
-        <h3 className="contactBanner__heading">Let me help you</h3>
-        <Button btnLink="/contact" btnText="Contact Now" />
+        <PText>¿Tiene una propuesta que se ajusta a mi stack?</PText>
+        <h3 className="contactBanner__heading">Deja que te ayude</h3>
+        <Button btnLink="/contact" btnText="Contáctese ahora" />
       </div>
     </div>
   </ContactBannerStyles>

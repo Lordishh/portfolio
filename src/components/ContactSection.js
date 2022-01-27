@@ -52,7 +52,11 @@ const ContactSectionStyle = styled.div`
 const ContactSection = () => (
   <ContactSectionStyle>
     <div className="container">
-      <SectionTitle heading="Contact" subheading="Get in touch" />
+      <SectionTitle
+        heading="Contacto"
+        subheading="Ponerse en contacto
+"
+      />
       <div className="contactSection__wrapper">
         <div className="left">
           <ContactInfoItem icon={<MdLocalPhone />} text="+54 11 2747-9201" />

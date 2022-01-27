@@ -49,7 +49,7 @@ const ContactForm = () => {
       <FormStyles>
         <div className="form-group">
           <label htmlFor="name">
-            Your name
+            Tu nombre
             <input
               type="text"
               id="name"
@@ -61,7 +61,7 @@ const ContactForm = () => {
         </div>
         <div className="form-group">
           <label htmlFor="email">
-            Your email
+            Tu correo electrónico
             <input
               type="text"
               id="email"
@@ -73,7 +73,7 @@ const ContactForm = () => {
         </div>
         <div className="form-group">
           <label htmlFor="message">
-            Your message
+            Tu mensaje.
             <textarea
               type="text"
               id="message"
@@ -83,7 +83,7 @@ const ContactForm = () => {
             />
           </label>
         </div>
-        <button type="submit">Send</button>
+        <button type="submit">Enviar</button>
       </FormStyles>
     </>
   );

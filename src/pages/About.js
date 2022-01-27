@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Button from '../components/Button';
 import PText from '../components/PText';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/about-page-img.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -86,8 +86,8 @@ const About = () => (
               Soy de Los Cardales, Buenos Aires, Argentina. Un lugar de belleza
               y tranquilidad. Desde mi infancia, amo el arte y el diseño como
               dibujante. También participé en algunos proyectos en WordPress en
-              el 2015. También me encanta crear cosas que puedan ser útiles para
-              los demás.
+              el 2015. Me gusta crear cosas que puedan ser útiles para los
+              demás.
               <br /> <br />
               Empecé a codificar hace poco más de un año. La codificación
               también es un arte para mí. Me encanta y ahora tengo la
@@ -100,7 +100,7 @@ const About = () => (
               buenas que ayuden al mundo a convertirse en un lugar mejor.
             </PText>
           </div>
-          <Button btnText="Descargar CV" btnLink="#" />
+          <Button btnText="Enviar un mensaje" btnLink="/contact" />
         </div>
         <div className="right">
           <img src={AboutImg} alt="Enuel Monzón img" />

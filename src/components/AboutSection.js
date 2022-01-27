@@ -74,15 +74,16 @@ const AboutSection = () => (
   <AboutSectionStyle>
     <div className="container">
       <div className="aboutSection__left">
-        <SectionTitle subheading="Let me introduce myself" heading="About me" />
+        <SectionTitle subheading="Permítame presentarme" heading="Sobre mi" />
         <PText>
-          I am a freelance website designer and developer from Buenos Aires,
-          Argentina. I create professional websites. I love art and always try
-          to show unique views to the audience through my design.
+          Soy un desarrollador web freelance de Buenos Aires, Argentina. Soy una
+          persona de fácil adaptación a nuevas tecnologías. Amo el arte y
+          siempre intento mostrar vistas únicas a la audiencia a través de mi
+          diseño.
         </PText>
         <div className="aboutSection__buttons">
-          <Button btnLink="/projects" btnText="Works" />
-          <Button btnLink="/about" btnText="Read More" outline />
+          <Button btnLink="/projects" btnText="Proyectos" />
+          <Button btnLink="/about" btnText="Leer más" outline />
         </div>
       </div>
       <div className="aboutSection__right">

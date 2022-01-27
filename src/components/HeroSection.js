@@ -26,8 +26,8 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-size: 7rem;
       font-family: 'Montserrat SemiBold';
+      font-size: 7rem;
       color: var(--white);
     }
   }
@@ -70,6 +70,7 @@ const HeroStyles = styled.div`
       width: 16px;
       margin: 0 auto;
       object-fit: contain;
+      margin-top: 3rem;
     }
   }
   .hero__scrollDown {
@@ -81,13 +82,13 @@ const HeroStyles = styled.div`
     ul {
       li {
         margin-bottom: 1rem;
-      }
-      a {
-        display: inline-block;
-        font-size: 1.6rem;
-        transform: rotate(-90deg);
-        letter-spacing: 5px;
-        margin-bottom: 2rem;
+        a {
+          display: inline-block;
+          font-size: 1.6rem;
+          transform: rotate(-90deg);
+          letter-spacing: 5px;
+          margin-bottom: 2rem;
+        }
       }
     }
   }
@@ -105,9 +106,12 @@ const HeroStyles = styled.div`
     .hero__img {
       height: 300px;
     }
+    .hero__info {
+      margin-top: 3rem;
+    }
     .hero__social {
       left: 0px;
-      bottom: 15%;
+      bottom: -15%;
       width: 20px;
       .hero__social__indicator {
         width: 20px;
@@ -145,7 +149,7 @@ const HeroSection = () => (
     <div className="hero">
       <div className="container">
         <h1 className="hero__heading">
-          <span>Hello, I'm</span>
+          <span>Hola, soy</span>
           <span className="hero__name">Enuel Monzón</span>
         </h1>
         <div className="hero__img">
@@ -153,14 +157,19 @@ const HeroSection = () => (
         </div>
         <div className="hero__info">
           <PText>
-            I am working as a freelance web designer and developer for 1 years.
-            I love to design and make new web experiences for the people.
+            Soy reciente graduado como Full Stack developer en la Universidad
+            Tecnológica Nacional de Buenos Aires. Me encanta la programación y
+            el diseño de nuevas experiencias web para las personas.
           </PText>
-          <Button btnLink="/projects" btnText="see my works" outline={false} />
+          <Button
+            btnLink="/projects"
+            btnText="ver mis trabajos"
+            outline={false}
+          />
         </div>
         <div className="hero__social">
           <div className="hero__social__indicator">
-            <p>Follow</p>
+            <p>Sígueme</p>
             <img src={SocialMediaArrow} alt="social media arrow" />
           </div>
           <div className="hero__social__text">

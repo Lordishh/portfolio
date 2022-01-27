@@ -13,7 +13,7 @@ const SectionTitleStyle = styled.div`
     margin-top: 0.5rem;
     text-transform: uppercase;
   }
-  @media only screen and (max-width: 768) {
+  @media only screen and (max-width: 768px) {
     p {
       font-size: 1.2rem;
     }

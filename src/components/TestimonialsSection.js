@@ -99,9 +99,9 @@ const TestimonialsSection = () => {
     <TestimonialSectionStyles>
       <div className="container">
         <SectionTitle
-          heading="Testimonials"
+          heading="Testimonios"
           subheading="
-See what some colleagues say about me"
+Colegas que han compartido proyectos conmigo"
         />
         <div className="testimonial__wrapper">
           <SwitchTransition component={null}>

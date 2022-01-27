@@ -1,27 +1,19 @@
 const testimonials = [
   {
     id: 1,
-    name: 'Leonel Magallanes',
-    title: 'System analyst',
-    org: 'Befaust',
+    name: 'Tomás Gula',
+    title: 'Data Scientist',
+    org: 'Nerd Company',
     desc:
-      'Enuel is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing. Jordi is the best',
+      'Enuel siempre fue un excelente compañero de equipo. Nos tocó realizar el trabajo final juntos y demostró total predisposición, interés y calidad de código de inicio a fin. Aparte de presentar ideas sumamente creativas que no hubiesen surgido sin su aporte. El trabajo resultó siendo un éxito y Enuel no paró desde ese entonces de seguir incrementando sus conocimientos y profesionalismo',
   },
   {
     id: 2,
     name: 'William Cortés',
-    title: 'Front-End Developer',
+    title: 'FrontEnd Developer',
     org: 'Beti',
     desc:
-      'Really amazing communication skills. Always understand what I am trying to achieve. Also, his work is really amazing. Do really high-quality work.',
-  },
-  {
-    id: 3,
-    name: 'Cristián Ferreyra',
-    title: 'Back-End Developer',
-    org: 'Freelancer',
-    desc:
-      'Enuel is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.',
+      'Ciertas personas nos enseñan el valor de la perseverancia, de luchar por sus metas apesar de las adversidades, de creer en un nuevo camino y trabajar día a día para construirlo. Felicitaciones Enuel Monzón, te admiro mucho.',
   },
 ];
 export default testimonials;

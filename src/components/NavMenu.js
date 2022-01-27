@@ -119,7 +119,7 @@ const NavMenu = () => {
             onKeyDown={() => SetShowNav(!showNav)}
             tabIndex={0}
           >
-            Home
+            Inicio
           </NavLink>
         </li>
         <li>
@@ -130,7 +130,7 @@ const NavMenu = () => {
             onKeyDown={() => SetShowNav(!showNav)}
             tabIndex={0}
           >
-            About
+            Sobre mi
           </NavLink>
         </li>
         <li>
@@ -141,7 +141,7 @@ const NavMenu = () => {
             onKeyDown={() => SetShowNav(!showNav)}
             tabIndex={0}
           >
-            Projects
+            Proyectos
           </NavLink>
         </li>
         <li>
@@ -152,7 +152,7 @@ const NavMenu = () => {
             onKeyDown={() => SetShowNav(!showNav)}
             tabIndex={0}
           >
-            Contact
+            Contacto
           </NavLink>
         </li>
       </ul>

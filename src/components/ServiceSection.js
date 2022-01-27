@@ -26,23 +26,23 @@ const ServicesItemStyles = styled.div`
 const ServiceSection = () => (
   <ServicesItemStyles>
     <div className="container">
-      <SectionTitle heading="Services" subheading="what I will do for you" />
+      <SectionTitle heading="Habilidades" subheading="¿Por qué contratarme?" />
 
       <div className="services__allItems">
         <ServicesSectionItem
           icon={<MdDesktopMac />}
-          title="Website Design"
-          desc="I do ui/ux design for the website that helps website to get a unique look."
+          title="Diseño de páginas web"
+          desc="Mi fuerte es la empatia hacia el usuario, logrando así una excelente experiencia para el mismo."
         />
         <ServicesSectionItem
           icon={<MdDesktopMac />}
-          title="Web Development"
-          desc="I also develop the websites. I create high performance website with blazing fast speed."
+          title="Desarrollo web"
+          desc="Gracias a mi pensamiento flexible tengo facilidad para generar ideas creativas para resolver problemáticas."
         />
         <ServicesSectionItem
           icon={<MdDesktopMac />}
-          title="App Dev"
-          desc="I develop mobile application. I create mobile app with eye catching ui."
+          title="Tecnologías"
+          desc="Cuento con un gran stack de tecnologías como frameworks y librerías que facilitan la programación"
         />
       </div>
     </div>

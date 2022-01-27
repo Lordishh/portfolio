@@ -45,7 +45,7 @@ const Map = () => (
   <MapStyles>
     <div className="container">
       <div className="map__card">
-        <h3 className="map__card__heading">Here is me</h3>
+        <h3 className="map__card__heading">Aquí estoy</h3>
         <PText>Campana, Provincia de Buenos Aires, Argentina</PText>
         <a
           href="https://goo.gl/maps/AM6T2WAi9RrMZNAUA"
@@ -53,7 +53,7 @@ const Map = () => (
           rel="noreferrer"
           className="map__card__link"
         >
-          Open in Google Map
+          Abrir en Google Map
         </a>
       </div>
     </div>

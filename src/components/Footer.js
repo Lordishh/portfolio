@@ -58,32 +58,31 @@ const Footer = () => (
       <div className="footer__col1">
         <h1 className="footer__col1__title">Enuel Monzón</h1>
         <PText>
-          A freelance web designer and developer from Buenos Aires, Argentina. I
-          always make websites that have unique designs and also has a good
-          performance rate.
+          Diseñador y desarrollador web de Buenos Aires, Argentina. Hago sitios
+          web que tienen diseños únicos y también un buen rendimiento.
         </PText>
       </div>
       <div className="footer__col2">
         <FooterCol
-          heading="Important Links"
+          heading="Links importantes"
           links={[
             {
-              title: 'Home',
+              title: 'Inicio',
               path: '/',
               type: 'Link',
             },
             {
-              title: 'About',
+              title: 'Sobre mi',
               path: '/about',
               type: 'Link',
             },
             {
-              title: 'Projects',
+              title: 'Proyectos',
               path: '/projects',
               type: 'Link',
             },
             {
-              title: 'Contact',
+              title: 'Contacto',
               path: '/contact',
               type: 'Link',
             },
@@ -92,7 +91,7 @@ const Footer = () => (
       </div>
       <div className="footer__col3">
         <FooterCol
-          heading="Contact Info"
+          heading="Información de contacto"
           links={[
             {
               title: '+54 11 2747-9201',
@@ -111,7 +110,7 @@ const Footer = () => (
       </div>
       <div className="footer__col4">
         <FooterCol
-          heading="Social Links"
+          heading="Links a redes sociales"
           links={[
             {
               title: 'Facebook',
