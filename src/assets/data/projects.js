@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import GoldQueen from '../images/GoldQueen.png';
+import GoldenQueen from '../images/GoldenQueen.png';
 import CrudApp from '../images/CrudApp.png';
 import GifExpert from '../images/GifExpert.png';
 import Renacer from '../images/Renacer.png';
@@ -7,10 +7,10 @@ import Renacer from '../images/Renacer.png';
 const projects = [
   {
     id: uuidv4(),
-    name: 'GoldQueen',
+    name: 'GoldenQueen',
     desc:
       'GoldQueen es un diseño web responsivo de un restaurante, el mismo se adapta a la resolución de cualquier dispositivo',
-    img: GoldQueen,
+    img: GoldenQueen,
     linkCode: 'https://goldqueen.netlify.app/',
   },
   {
