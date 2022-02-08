@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import { MdLocalPhone, MdEmail } from 'react-icons/md';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import ContactInfoItem from './ContactInfoItem';
 import SectionTitle from './SectionTitle';
-import ContactForm from './ContactForm';
+/* import ContactForm from './ContactForm'; */
 
 const ContactSectionStyle = styled.div`
   padding: 10rem 0;
@@ -11,10 +12,10 @@ const ContactSectionStyle = styled.div`
     display: flex;
     gap: 5rem;
     margin-top: 7rem;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
   }
-  .contactSection__wrapper::after {
+  /* .contactSection__wrapper::after {
     position: absolute;
     content: '';
     width: 2px;
@@ -31,7 +32,7 @@ const ContactSectionStyle = styled.div`
   .right {
     max-width: 500px;
     width: 100%;
-  }
+  }*/
   @media only screen and (max-width: 768px) {
     .contactSection__wrapper {
       flex-direction: column;
@@ -60,12 +61,20 @@ const ContactSection = () => (
       <div className="contactSection__wrapper">
         <div className="left">
           <ContactInfoItem icon={<MdLocalPhone />} text="+54 11 2747-9201" />
+          <ContactInfoItem
+            icon={<FaGithub />}
+            text="https://github.com/Lordishh"
+          />
+          <ContactInfoItem
+            icon={<FaLinkedin />}
+            text="https://www.linkedin.com/in/enuel-monzon-dev/"
+          />
           <ContactInfoItem icon={<MdEmail />} text="enuel.monzon@gmail.com" />
           <ContactInfoItem text="Campana, Buenos Aires, Argentina" />
         </div>
-        <div className="right">
+        {/* <div className="right">
           <ContactForm />
-        </div>
+        </div> */}
       </div>
     </div>
   </ContactSectionStyle>
