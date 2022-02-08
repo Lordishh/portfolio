@@ -9,11 +9,19 @@ const testimonials = [
   },
   {
     id: 2,
+    name: 'Federico Tocco',
+    title: 'Business Intelligence Developer',
+    org: 'EY',
+    desc:
+      'Enuel y yo compartimos grupo de trabajo en el curso de Professional Full Stack Developer del FRBA, colaborando activamente en el trabajo final del módulo de React. Su participación generó un gran impacto en el mismo, y aparte de sus habilidades técnicas destaco sus ganas de aprender y desarrollarse.',
+  },
+  {
+    id: 3,
     name: 'William Cortés',
     title: 'FrontEnd Developer',
-    org: 'Beti',
+    org: 'Talenta 365',
     desc:
-      'Ciertas personas nos enseñan el valor de la perseverancia, de luchar por sus metas apesar de las adversidades, de creer en un nuevo camino y trabajar día a día para construirlo. Felicitaciones Enuel Monzón, te admiro mucho.',
+      'Enuel es un gran ser humano y un excelente desarrollador. Tuve la oportunidad de compartir con él en el bootcamp SoyHenry. Siempre está dispuesto a ayudar, apoyando al equipo con sus mejores esfuerzos. Le gusta estar aprendiendo, realizando cursos y poniendo en práctica los nuevos conocimientos, se destaca por su actitud para encontrar soluciones y avanzar, por su espíritu de compañerismo y por su versatilidad.',
   },
 ];
 export default testimonials;
