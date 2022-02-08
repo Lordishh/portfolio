@@ -90,6 +90,7 @@ const ProjectsSection = () => (
                   title={project.name}
                   img={project.img}
                   desc={project.desc}
+                  linkCode={project.linkCode}
                 />
               </SwiperSlide>
             );

@@ -68,14 +68,17 @@ const Projects = () => {
   return (
     <ProjectsStyles>
       <div className="container">
-        <SectionTitle heading="Projects" subheading="some of my recent works" />
+        <SectionTitle
+          heading="Proyectos"
+          subheading="Mis trabajos más recientes"
+        />
         <div className="projects__searchBar">
           <form>
             <input
               type="text"
               value={searchText}
               onChange={handleChange}
-              placeholder="Project Name"
+              placeholder="Nombre del proyecto"
             />
             <MdSearch className="searchIcon" />
           </form>
@@ -87,6 +90,7 @@ const Projects = () => {
               title={item.name}
               desc={item.desc}
               img={item.img}
+              linkCode={item.linkCode}
             />
           ))}
         </div>

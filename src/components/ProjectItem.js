@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import CrudApp from '../assets/images/CrudApp.png';
 
@@ -40,15 +39,22 @@ const ProjectItem = ({
   img = CrudApp,
   title = 'Project Name',
   desc = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+  linkCode = 'www.google.com.ar',
 }) => (
   <ProjectItemStyles>
-    <Link to="/projects" className="projectItem__img">
+    <a
+      href={linkCode}
+      target="_blank"
+      rel="noreferrer"
+      className="projectItem__img"
+    >
       <img src={img} alt="project img" />
-    </Link>
+    </a>
+
     <div className="projectItem__info">
-      <Link to="#">
+      <a href={linkCode} target="_blank" rel="noreferrer">
         <h3 className="projectItem__title">{title}</h3>
-      </Link>
+      </a>
       <p className="projectItem__desc">{desc}</p>
     </div>
   </ProjectItemStyles>

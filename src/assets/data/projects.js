@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import GoldQueen from '../images/GoldQueen.png';
 import CrudApp from '../images/CrudApp.png';
 import GifExpert from '../images/GifExpert.png';
+import Renacer from '../images/Renacer.png';
 
 const projects = [
   {
@@ -10,15 +11,7 @@ const projects = [
     desc:
       'GoldQueen es un diseño web responsivo de un restaurante, el mismo se adapta a la resolución de cualquier dispositivo',
     img: GoldQueen,
-    linkCode: 'https://github.com/Lordishh/goldQueen',
-  },
-  {
-    id: uuidv4(),
-    name: 'CRUD-App',
-    desc:
-      'CrudApp es una aplicación hecha con React que su función es que cada usuario pueda guardar notas personales',
-    img: CrudApp,
-    linkCode: 'https://github.com/Lordishh/CRUD-app',
+    linkCode: 'https://goldqueen.netlify.app/',
   },
   {
     id: uuidv4(),
@@ -26,7 +19,23 @@ const projects = [
     desc:
       'GifExpertApp es una aplicación web hecha en con React para buscar imágenes Gifs consumiendo la Api de Giphy',
     img: GifExpert,
-    linkCode: 'https://github.com/Lordishh/Gif-Expert-App',
+    linkCode: 'https://lordishh.github.io/Gif-Expert-App/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Renacer',
+    desc:
+      'Renacer es una página para un centro de pilates. La misma es un desarrollo responsivo con la función modo oscuro',
+    img: Renacer,
+    linkCode: 'https://renacer.netlify.app/',
+  },
+  {
+    id: uuidv4(),
+    name: 'CRUD-App',
+    desc:
+      'CrudApp es una aplicación hecha con React que su función es que cada usuario pueda guardar notas personales - Sin desplegar',
+    img: CrudApp,
+    linkCode: 'https://github.com/Lordishh/CRUD-app',
   },
 ];
 
