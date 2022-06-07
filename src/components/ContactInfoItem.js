@@ -19,6 +19,9 @@ const ItemStyles = styled.div`
     justify-content: center;
     border-radius: 50%;
   }
+  .info {
+    overflow: scroll;
+  }
   svg {
     width: 3.5rem;
   }

@@ -122,8 +122,26 @@ const About = () => (
       <div className="about__info__items">
         <div className="about__info__item">
           <h1 className="about__info__heading">Tecnologías</h1>
-          <AboutInfoItem title="FrontEnd" items={['HTML', 'CSS', 'REACT']} />
-          <AboutInfoItem title="BackEnd" items={['Node', 'Express']} />
+          <AboutInfoItem
+            title="FrontEnd"
+            items={[
+              'HTML5',
+              'CSS3',
+              'REACT',
+              'BOOTSTRAP',
+              'FIGMA',
+              'SASS',
+              'ANGULAR',
+            ]}
+          />
+          <AboutInfoItem
+            title="Lenguajes"
+            items={['JavaScript', 'TypeScript']}
+          />
+          <AboutInfoItem
+            title="BackEnd"
+            items={['Node.JS', 'Express', 'MongoDB', 'Firebase']}
+          />
           <AboutInfoItem title="Version Control" items={['GitHub']} />
         </div>
       </div>

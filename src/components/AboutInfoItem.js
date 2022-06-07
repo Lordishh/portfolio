@@ -13,6 +13,8 @@ const AboutItemStyles = styled.div`
     font-size: 2.4rem;
   }
   .items {
+    width: 335px;
+    overflow: scroll;
     display: flex;
     gap: 1.5rem;
     position: absolute;

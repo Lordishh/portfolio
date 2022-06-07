@@ -39,7 +39,7 @@ const HeroStyles = styled.div`
     border: 2px solid var(--gray-1);
   }
   .hero__info {
-    margin-top: -18rem;
+    margin-top: -13rem;
   }
   .hero__social,
   .hero__scrollDown {
@@ -157,9 +157,9 @@ const HeroSection = () => (
         </div>
         <div className="hero__info">
           <PText>
-            Soy reciente graduado como Full Stack developer en la Universidad
-            Tecnológica Nacional de Buenos Aires. Me encanta la programación y
-            el diseño de nuevas experiencias web para las personas.
+            Soy graduado como Full Stack developer en la Universidad Tecnológica
+            Nacional de Buenos Aires. Me encanta la programación y el diseño de
+            nuevas experiencias web para las personas.
           </PText>
           <Button
             btnLink="/projects"
