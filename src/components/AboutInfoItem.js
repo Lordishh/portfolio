@@ -13,8 +13,6 @@ const AboutItemStyles = styled.div`
     font-size: 2.4rem;
   }
   .items {
-    width: 335px;
-    overflow: scroll;
     display: flex;
     gap: 1.5rem;
     position: absolute;
@@ -30,6 +28,8 @@ const AboutItemStyles = styled.div`
     align-items: flex-start;
     gap: 1rem;
     .items {
+      width: 335px;
+      overflow: scroll;
       position: initial;
       gap: 1rem;
     }

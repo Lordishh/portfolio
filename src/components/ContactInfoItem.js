@@ -19,11 +19,13 @@ const ItemStyles = styled.div`
     justify-content: center;
     border-radius: 50%;
   }
-  .info {
-    overflow: scroll;
-  }
   svg {
     width: 3.5rem;
+  }
+  @media only screen and (max-width: 768px) {
+    .info {
+      overflow: scroll;
+    }
   }
 `;
 
