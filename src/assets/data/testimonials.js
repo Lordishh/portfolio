@@ -23,5 +23,13 @@ const testimonials = [
     desc:
       'Enuel es un gran ser humano y un excelente desarrollador. Tuve la oportunidad de compartir con él en el bootcamp SoyHenry. Siempre está dispuesto a ayudar, apoyando al equipo con sus mejores esfuerzos. Le gusta estar aprendiendo, realizando cursos y poniendo en práctica los nuevos conocimientos, se destaca por su actitud para encontrar soluciones y avanzar, por su espíritu de compañerismo y por su versatilidad.',
   },
+  {
+    id: 4,
+    name: 'Leandro Gil',
+    title: 'Software Engineering MTS',
+    org: 'UTN BA',
+    desc:
+      'Excelente profesional, me toco tenerlo como alumno, siempre mostró predisposición para las críticas constructivas y se mostró con ganas de aprender y mejorar. Mostró excelentes aptitudes con frameworks basados en js, html y css',
+  },
 ];
 export default testimonials;
